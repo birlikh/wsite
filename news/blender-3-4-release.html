@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>انتشار نسخه 3.4 بلندر Blender - بیرلیخ</title>
+    <meta name="description" content="انتشار بلندر 3.4 به عنوان جدیدترین نسخه توسط بنیاد blender و کامیونیتی آنلاین توسعه دهندگانش با امکانات جدید شامل path guiding در موتور رندر Cycles و...">
+    <link rel="stylesheet" href="../assets/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.rtl.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <!-- <link rel="manifest" href="manifest.json" /> -->
+    <style>
+         :root {
+            --cyanblue: #45dbec;
+            --wdark: #181c25;
+        }
+        
+        @font-face {
+            font-family: Vazir;
+            src: url('../assets/fonts/Vazir.ttf');
+        }
+        
+        body,
+        p,
+        a,
+        div,
+        li,
+        input,
+        textarea,
+        span,
+        strong,
+        header,
+        main,
+        footer {
+            font-family: Vazir !important;
+        }
+        
+        header nav a {
+            color: white !important;
+            background-color: var(--wdark);
+            border-radius: 30px;
+        }
+        
+        header nav a:hover {
+            background-color: var(--cyanblue);
+            color: var(--wdark) !important;
+        }
+        
+        header .header-bg {
+            height: 90vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .bgcolor-wdark {
+            background-color: var(--wdark);
+        }
+        
+        .bgcolor-bl {
+            background-color: var(--cyanblue);
+        }
+        
+        .logo-box {
+            height: 75px;
+            border: 5px solid var(--cyanblue);
+            border-radius: 30px;
+            display: inline;
+            width: 75px !important;
+        }
+        
+        .brands i {
+            font-size: 54px;
+        }
+        
+        .glass-bg {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgba(0, 0, 0, 0.416);
+            box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+        }
+        
+        .bg-ghostwhite {
+            background-color: ghostwhite;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .bg-glass-mobile-dark {
+                background-color: rgba(0, 0, 0, 0.9);
+                box-shadow: 0 0 5px #ddd;
+            }
+        }
+    </style>
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="wrapper d-flex flex-column w-100" style="height: 100vh;">
+        <header style="background-color: #0d111a;">
+
+            <div class="container pt-2 pb-2">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo-box bgcolor-wdark">
+                            <img src="../assets/images/birlikh-logo.png" alt="لوگوی بیرلیخ" width="75">
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center justify-content-lg-start">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler text-white bg-white ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav mt-3 mt-lg-0">
+                                        <li class="nav-item">
+                                            <a href="https://birlikh.ir" class="nav-link active me-2 ps-3 ps-lg-2">صفحه
+                                                اصلی</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link me-2 ps-3 ps-lg-2">بازیسازی</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link me-2 ps-3 ps-lg-2">طراحی سایت</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#learning" class="nav-link me-2 ps-3 ps-lg-2">آموزش ها</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#contact-us" class="nav-link me-2 ps-3 ps-lg-2">تماس با ما</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="col-3 d-flex justify-content-center align-items-center">
+                        <ul class="nav">
+                            <li>
+                                <a href="https://www.instagram.com/ali_sheykhlar1/">
+                                    <img src="../assets/images/in.png" alt="اینستاگرام" width="40">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/birlikh_Al">
+                                    <img src="../assets/images/tl.png" alt="تلگرام بیرلیخ" width="40">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main class="mt-5 mb-5 p-3 p-md-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-center card">انتشار نسخه 3.4 بلندر Blender</h1>
+                        <img src="../assets/images/blender-3-4-release-splash.jpg" alt="انتشار نسخه 3.4 بلندر Blender" width="100%">
+                        <p class="mt-4">
+                            انتشار بلندر 3.4 به عنوان جدیدترین نسخه توسط بنیاد blender و کامیونیتی آنلاین توسعه دهندگانش با امکانات جدید شامل path guiding در موتور رندر Cycles، ابزار های جدید اسکالپتینگ و masking رنگ، پوشش نمای گره های Geometry، ابزار های UV جدید و performance ارتقا
+                            یافته است.
+                        </p>
+
+                        <a href="https://www.blender.org/download/release/Blender3.4/blender-3.4.0-windows-x64.msi/" class="btn btn-info text-white" target="_blank" rel="noreferrer noopener">دانلود
+                            نسخه 3.4 بلندر</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-auto">
+            <div class="pt-5 pb-5 text-white" style="background-color: #242834;">
+                <div class="container">
+                    <div class="row text-center text-sm-start">
+                        <div class="col-12 col-sm-6 col-md mb-5 mb-md-1" id="contact-us">
+                            <span><strong>در شبکه های اجتماعی...</strong></span>
+                            <ul class="nav mt-4 justify-content-center justify-content-sm-start">
+                                <li>
+                                    <a href="https://www.instagram.com/ali_sheykhlar1/"><img src="../assets/images/in.png" alt="اینستاگرام بیرلیخ" width="50"></a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/birlikh_Al"><img src="../assets/images/tl.png" alt="تلگرام بیرلیخ" width="50"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md mb-5 mb-md-1">
+                            <span><strong>آموزشی گرافیک</strong></span>
+                            <div class="pt-4">
+                                <p>آموزش گیم انجین یونیتی</p>
+                                <p>آموزش نرم افزار بلندر</p>
+                                <p>آموزش نرم افزار فتوشاپ</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md mb-5 mb-md-1">
+                            <span><strong>آموزشی طراحی سایت</strong></span>
+                            <div class="pt-4">
+                                <p>آموزش زبان برنامه نویسی PHP</p>
+                                <p>آموزش زبان HTML</p>
+                                <p>آموزش زبان CSS</p>
+                                <p>آموزش فریمورک لاراول</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pt-3 pb-3" style="background-color: #151925;">
+                <div class="row text-white text-center">
+                    <div class="col">
+                        تمامی حقوق متعلق به سایت birlikh می‌باشد.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../assets/js/jquery-3.5.1.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
