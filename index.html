@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بیرلیخ - birlikh</title>
+    <meta name="description" content="برنامه نویسی، ساخت بازی اندروید، طراحی سایت، وردپرس، لاراول، استتیک، گرافیک سه بعدی بلندر (blender)">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <!-- <link rel="manifest" href="manifest.json" /> -->
+    
+    <style>
+         :root {
+            --cyanblue: #45dbec;
+            --wdark: #181c25;
+        }
+        
+        @font-face {
+            font-family: Vazir;
+            src: url('assets/fonts/Vazir.ttf');
+        }
+        
+        body,
+        p,
+        a,
+        div,
+        li,
+        input,
+        textarea,
+        span,
+        strong,
+        header,
+        main,
+        footer {
+            font-family: Vazir !important;
+        }
+        
+        header nav a {
+            color: white !important;
+            background-color: var(--wdark);
+            border-radius: 30px;
+        }
+        
+        header nav a:hover {
+            background-color: var(--cyanblue);
+            color: var(--wdark) !important;
+        }
+        
+        header .header-bg {
+            height: 90vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .bgcolor-wdark {
+            background-color: var(--wdark);
+        }
+        
+        .bgcolor-bl {
+            background-color: var(--cyanblue);
+        }
+        
+        .logo-box {
+            height: 75px;
+            border: 5px solid var(--cyanblue);
+            border-radius: 30px;
+            display: inline;
+            width: 75px !important;
+        }
+        
+        .brands i {
+            font-size: 54px;
+        }
+        
+        .glass-bg {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgba(0, 0, 0, 0.416);
+            box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+        }
+        
+        .bg-ghostwhite {
+            background-color: ghostwhite;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .bg-glass-mobile-dark {
+                background-color: rgba(0, 0, 0, 0.9);
+                box-shadow: 0 0 5px #ddd;
+            }
+        }
+    </style>
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="wrapper d-flex flex-column w-100" style="height: 100vh;">
+        <header style="background-color: #0d111a;">
+
+            <div class="container pt-2 pb-2">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo-box bgcolor-wdark">
+                            <img src="assets/images/birlikh-logo.png" alt="لوگوی بیرلیخ" width="75">
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center justify-content-lg-start">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler text-white bg-white ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav mt-3 mt-lg-0">
+                                        <li class="nav-item">
+                                            <a href="https://birlikh.ir" class="nav-link active me-2 ps-3 ps-lg-2">صفحه اصلی</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link me-2 ps-3 ps-lg-2">بازیسازی</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link me-2 ps-3 ps-lg-2">طراحی سایت</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#learning" class="nav-link me-2 ps-3 ps-lg-2">آموزش ها</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#contact-us" class="nav-link me-2 ps-3 ps-lg-2">تماس با ما</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="col-3 d-flex justify-content-center align-items-center">
+                        <ul class="nav">
+                            <li>
+                                <a href="https://www.instagram.com/ali_sheykhlar1/">
+                                    <img src="assets/images/in.png" alt="اینستاگرام" width="40">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/birlikh_Al">
+                                    <img src="assets/images/tl.png" alt="تلگرام بیرلیخ" width="40">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-bg d-flex d-md-block align-items-center" style="background-image: url('assets/images/header-bg.jpg');">
+                <div class="container-fluid text-white">
+                    <div class="row">
+                        <div class="col">
+                            <div class="bg-glass-mobile-dark p-4 p-md-5 m-2 m-md-5">
+                                <h1>بیرلیخ</h1>
+                                <div class="p-4">
+                                    <p>ساخت و طراحی بازی های 3 بعدی و 2 بعدی</p>
+                                    <p>طراحی انواع سایت</p>
+                                    <p>آموزش طراحی بازی</p>
+                                    <p>آموزش طراحی سایت</p>
+                                    <p>آموزش گرافیک 2 بعدی و 3 بعدی</p>
+                                </div>
+                                <div class="ms-4">
+                                    <a href="#" class="btn bgcolor-bl">مشاهده بیشتر</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="brands d-flex flex-wrap justify-content-between p-3" style="filter: grayscale(100%); background-color: #e1e1e1;">
+                <div><img src="assets/images/php-logo.svg" alt="لوگوی php" width="50"></div>
+                <div><img src="assets/images/html5-logo.svg" alt="لوگوی html5" width="50"></div>
+                <div><img src="assets/images/css-logo.svg" alt="لوگوی css" width="50"></div>
+                <div><img src="assets/images/bootstrap-logo.svg" alt="لوگوی bootstrap" width="50"></div>
+                <div><img src="assets/images/laravel-logo.svg" alt="لوگوی لاراول" width="50"></div>
+                <div><img src="assets/images/unity-logo.svg" alt="لوگوی یونیتی" width="50"></div>
+                <div><img src="assets/images/blender-logo.svg" alt="لوگوی بلندر" width="50"></div>
+                <div><img src="assets/images/photoshop-logo.svg" alt="لوگوی فتوشاپ" width="50"></div>
+                <div><img src="assets/images/godot-logo.svg" alt="لوگوی godot" width="50"></div>
+            </div>
+        </section>
+
+        <main class="mt-5 mb-5 p-3 p-md-0">
+            <div class="container shadow-lg">
+                <div class="row">
+                    <div class="col card bg-dark text-white border-0">
+                        <h3 class="card-header">بخش هایی از بازی جدید racing</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 col-md pt-4 pb-4 me-3 shadow-lg">
+                        <div class="row h-100 d-md-flex flex-md-column justify-content-between">
+                            <div class="col-12 col-md-12 shadow-lg">
+                                <img src="assets/images/game-cars.jpg" alt="صحنه هایی از بازی مسابقه ای" width="100%">
+                            </div>
+                            <div class="col-12 col-md-12 shadow-lg">
+                                <img src="assets/images/game-cars2.jpg" alt="صحنه هایی از بازی مسابقه ای2" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md pt-4 pb-4 shadow-lg">
+                        <img src="assets/images/ur-lexus-police.jpg" alt="صحنه هایی از بازی مسابقه ای3" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <section class="mt-5">
+                <div style="background-image: url('assets/images/bg2.jpg');">
+                    <div class="container pt-3 pb-3 text-white">
+                        <div class="row justify-content-center text-center glass-bg">
+                            <div class="col-md-4 col-sm-12 pt-5 pb-5 pe-3">
+                                <h3>دانلود بازی بیرلیخ از مایکت</h3>
+                                <p>همین حالا بازی کن</p>
+                                <a href="https://myket.ir/app/com.birlikh" class="btn bg-white"><img src="assets/images/myket_logo.png" alt="مایکت"></a>
+                            </div>
+                            <div class="col-md-2 col-sm-12 pt-5 pb-5 ps-3">
+                                <img src="assets/images/logo.png" alt="لوگوی بازی اندرویدی بیرلیخ" width="150">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container bg-dark text-white mt-5 shadow-lg">
+                <div class="row mb-3 pt-2 pb-2">
+                    <div class="col card bg-dark">
+                        <h3 class="card-header">نمونه هایی از طراحی و رندرینگ سه بعدی</h3>
+                    </div>
+                </div>
+                <div class="row gap-2 text-center pb-4 ps-3 pe-3 justify-content-center">
+                    <div class="col-5 col-md pt-4 pb-4 shadow-lg bg-ghostwhite">
+                        <a href="assets/images/birlikh-render.JPG">
+                            <img src="assets/images/birlikh-render.JPG" alt="صحنه رندر شده بیرلیخ 3d" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div class="col-5 col-md pt-4 pb-4 shadow-lg bg-ghostwhite">
+                        <a href="assets/images/birlikh-render2.jpg">
+                            <img src="assets/images/birlikh-render2.jpg" alt="صحنه رندر شده بیرلیخ" width="100%">
+                        </a>
+                    </div>
+                    <div class="col-5 col-md pt-4 pb-4 shadow-lg bg-ghostwhite">
+                        <a href="assets/images/lamboghini-reventon.jpg">
+                            <img src="assets/images/lamboghini-reventon.jpg" alt="ماشین سه بعدی لامبورگینی رندر شده" width="100%">
+                        </a>
+                    </div>
+                    <div class="col-5 col-md pt-4 pb-4 shadow-lg bg-ghostwhite">
+                        <a href="assets/images/robot.jpg">
+                            <img src="assets/images/robot.jpg" alt="ربات سه بعدی رندر شده در بلندر" width="100%">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pb-3 mt-5 shadow-lg" id="learning">
+                <div class="row">
+                    <div class="col card bg-dark text-white border-0">
+                        <h3 class="card-header">آموزش ها</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 col-sm pt-4 pb-4 ms-sm-3 me-3">
+                        <img src="assets/images/unity-logo.png" alt="آموزش یونیتی" width="100" height="100">
+                        <div>
+                            <h4 class="mt-2 mb-3">آموزش یونیتی</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm pt-4 pb-4 me-3">
+                        <img src="assets/images/blender-logo.png" alt="آموزش بلندر" width="100" height="100">
+                        <div>
+                            <h4 class="mt-2 mb-3">آموزش بلندر</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm pt-4 pb-4 me-3">
+                        <img src="assets/images/photoshop-logo.png" alt="آموزش فتوشاپ" width="100" height="100">
+                        <div>
+                            <h4 class="mt-2 mb-3">آموزش فتوشاپ</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-auto">
+            <div class="pt-5 pb-5 text-white" style="background-color: #242834;">
+                <div class="container">
+                    <div class="row text-center text-sm-start">
+                        <div class="col-12 col-sm-6 col-md mb-5 mb-md-1" id="contact-us">
+                            <span><strong>در شبکه های اجتماعی...</strong></span>
+                            <ul class="nav mt-4 justify-content-center justify-content-sm-start">
+                                <li>
+                                    <a href="https://www.instagram.com/ali_sheykhlar1/"><img src="assets/images/in.png" alt="اینستاگرام بیرلیخ" width="50"></a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/birlikh_Al"><img src="assets/images/tl.png" alt="تلگرام بیرلیخ" width="50"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md mb-5 mb-md-1">
+                            <span><strong>آموزشی گرافیک</strong></span>
+                            <div class="pt-4">
+                                <p>آموزش گیم انجین یونیتی</p>
+                                <p>آموزش نرم افزار بلندر</p>
+                                <p>آموزش نرم افزار فتوشاپ</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md mb-5 mb-md-1">
+                            <span><strong>آموزشی طراحی سایت</strong></span>
+                            <div class="pt-4">
+                                <p>آموزش زبان برنامه نویسی PHP</p>
+                                <p>آموزش زبان HTML</p>
+                                <p>آموزش زبان CSS</p>
+                                <p>آموزش فریمورک لاراول</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pt-3 pb-3" style="background-color: #151925;">
+                <div class="row text-white text-center">
+                    <div class="col">
+                        تمامی حقوق متعلق به سایت birlikh می‌باشد.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
