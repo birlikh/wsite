@@ -258,13 +258,3 @@
 		</html>
 	</xsl:template>
 </xsl:stylesheet>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-Object Caching 13/97 objects using Disk
-Page Caching using Disk: Enhanced 
-Lazy Loading
-
-Served from: localhost @ 2024-12-19 02:36:41 by W3 Total Cache
--->
