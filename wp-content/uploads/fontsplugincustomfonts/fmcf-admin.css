@@ -1,0 +1,12 @@
+
+			@font-face {
+					font-family: 'vazir';
+					src:url('https://birlikh.ir/wp-content/uploads/fontsplugincustomfonts/vazir.woff2') format('woff2'),
+				url('https://birlikh.ir/wp-content/uploads/fontsplugincustomfonts/vazir.woff') format('woff'),
+										url('https://birlikh.ir/wp-content/uploads/fontsplugincustomfonts/vazir.ttf') format('truetype');
+									}
+
+				.vazir{font-family: 'vazir' !important;}
+							
+				.block-editor-page .edit-post-visual-editor h1,.block-editor-page .edit-post-visual-editor h2,.block-editor-page .edit-post-visual-editor h3,.block-editor-page .edit-post-visual-editor h4,.block-editor-page .edit-post-visual-editor h5,.block-editor-page .edit-post-visual-editor h6,.block-editor-page .edit-post-visual-editor .wp-block-post-title,.block-editor-page .edit-post-visual-editor .wp-block-post-title,.block-editor-page .edit-post-visual-editor .wp-block-query-title,.block-editor-page .edit-post-visual-editor body,.block-editor-page .edit-post-visual-editor p,.block-editor-page .edit-post-visual-editor ul,.block-editor-page .edit-post-visual-editor li,.block-editor-page .edit-post-visual-editor ol{font-family: 'vazir' !important;}
+		
