@@ -2,7 +2,21 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://birlikh.ir/training/</loc>
-		<lastmod>2025-04-26T22:34:07+00:00</lastmod>
+		<lastmod>2025-05-05T19:56:59+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://birlikh.ir/training/connect-wordpress-to-google-analytics/</loc>
+		<lastmod>2025-05-05T19:56:59+00:00</lastmod>
+		<image:image>
+			<image:loc>https://birlikh.ir/wp-content/uploads/2025/05/connect-wordpress-to-google-analytics-and-search-console.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://birlikh.ir/training/identify-nulled-wordpress-plugins/</loc>
+		<lastmod>2025-05-05T16:57:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://birlikh.ir/wp-content/uploads/2025/04/ChatGPT-Image-Apr-29-2025-12_38_57-AM.png</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://birlikh.ir/training/switch-wordpress-theme-safely/</loc>
